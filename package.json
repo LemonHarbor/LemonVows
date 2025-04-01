@@ -1,0 +1,12 @@
+{
+  "name": "lemonvows-weweb-components",
+  "version": "0.0.1",
+  "description": "Custom Vue components for WeWeb",
+  "private": true,
+  "scripts": {
+    "//": "No build scripts needed for WeWeb component import, but good practice to have package.json"
+  },
+  "devDependencies": {
+    "vue": "^3.0.0"
+  }
+}
