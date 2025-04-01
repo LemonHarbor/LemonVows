@@ -1,20 +1,19 @@
 <template>
-  <div class="minimal-test">
-    Minimaler Test erfolgreich!
+  <div class="minimal-test-setup">
+    Minimaler Test mit Script Setup!
   </div>
 </template>
 
-<script>
-// Absichtlich leer oder traditionelles export default {}
-export default {
-  name: 'MinimalTest'
-}
+<script setup>
+// Kein JavaScript notwendig für diese einfache Komponente
+// <script setup> wird von modernen Vue-Tools (und hoffentlich WeWeb) bevorzugt.
 </script>
 
 <style scoped>
-.minimal-test {
-  padding: 10px;
-  border: 1px dashed green;
-  color: green;
+.minimal-test-setup {
+  padding: 12px;
+  border: 1px solid blue;
+  color: blue;
+  background-color: #eef;
 }
 </style>
